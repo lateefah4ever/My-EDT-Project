@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display+swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+
+.rdd{
+    color: rgb(220, 51, 79);
+}
+
+.blu{
+    color: #3e8da8;
+}
+
+/* beginning of header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #3e8da8;
+    padding: 0 5%;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 70px;
+}
+
+header h3 a span{
+     color: rgb(220, 51, 79);
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0 20px;
+}
+
+header ul li a{
+    font-size: 0.7em;
+}
+
+header ul li a:hover{
+    color: rgb(220, 51, 79);
+}
+
+/* .toggle{
+    width: ;
+} */
+
+/* end of header */
+
+/* start of types */
+
+.types{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    margin-top: 120px;
+}
+
+.types h3{
+    font-size: 30px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+.types p{
+    line-height: 30px;
+    color: #383838;
+}
+
+.types ul li{
+    list-style-type: square;
+    line-height: 30px;
+    color: #383838;
+}
+
+/* start of batch */
+
+.batchos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.batch-img{
+    width: 55%;
+    padding-right: 5%;
+    object-fit: contain;
+}
+
+.batch{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.batch h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.batchad h5, .batchdisad h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.batchad ul li, .batchdisad ul li{
+    line-height: 30px;
+}
+
+/* end of batch */
+
+/* start of distributed */
+
+.distributedos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.distributed{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.distributed h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.distriad h5, .distrid h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.distriad ul li, .distrid ul li{
+    line-height: 30px;
+}
+
+.distrid-img{
+    width: 45%;
+    padding-left: 5%;
+    object-fit: contain;
+}
+
+/* end of distributed */
+
+/* start of multitasking */
+
+.multitaskingos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.multi-img{
+    width: 55%;
+    padding-right: 5%;
+    object-fit: contain;
+}
+
+.multi{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.multi h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+
+.multiad h5, .multidz h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.multiad ul li, .multidz ul li{
+    line-height: 30px;
+}
+
+/* end of multitasking */
+
+/* start of network */
+
+.networkos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.netwk{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ntwk h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.ntwkad h5, .ntwkdz h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.ntwkad ul li, .ntwkdz ul li{
+    line-height: 30px;
+}
+
+.ntwk-img{
+    width: 45%;
+    padding-left: 5%;
+    object-fit: contain;
+}
+
+/* end of network */
+
+/* start of real-time */
+
+.realos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.rtos-img{
+    width: 55%;
+    padding-right: 5%;
+    object-fit: contain;
+}
+
+.rtos{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rtos h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.rtostyp, .rtos-app{
+    margin-top: 20px;
+
+}
+
+
+.rtosad h5, .rtosdz h5, .rtos-app h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.rtosad ul li, .rtosdz ul li, .rtos-app ul li{
+    line-height: 30px;
+}
+
+/* end of real-time */
+
+/* start of mobile */
+
+.mobileos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.mob{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mob h4{
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.mobad h5, .mobdz h5{
+    font-size: 20px;
+    line-height: 70px;
+    margin-top: 20px;
+}
+
+.mobad ul li, .mobdz ul li{
+    line-height: 30px;
+}
+
+.mob-img{
+    width: 45%;
+    padding-left: 5%;
+    object-fit: contain;
+}
+
+/* end of mobile */
+
+/* end of types */
+
+
+/* start of footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    background: #3e8da8;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+/* end of footer */
+
+/* for tablets */
+@media only screen and (max-width:768px){
+    /* start of header */
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background: #3e8da8;
+        padding: 0 5%;
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    header h3{
+        margin-right: 50px;
+    }
+
+    header h3 a{
+        line-height: 60px;
+        width: 50%;
+    }
+
+    header ul{
+        display: inline-flex;
+    }
+
+    header ul li{
+        /* background: #3e8da8; */
+        display: flex;
+        flex-direction: row;
+        text-align: center ;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    header ul li:hover{
+        background-color: #ffffff19;
+    }
+
+    
+    header ul li a:hover{
+        color: rgb(220, 51, 79);
+    }  
+    
+    /* end of header */
+
+    /* start of types */
+    .types{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1% 10%;        
+    }
+
+    .types h3{
+        font-size: 25px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .types p, .types ul li{
+        font-size: 15px;
+    }
+
+    /* start of batch */
+
+    .batchos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .batch-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .batch{
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    .batch h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+    
+    .batchad h5, .batchdisad h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .batchad ul li, .batchdisad ul li{
+        line-height: 25px;
+    }
+
+    /* end of batch */
+
+    /* start of distributed */
+
+    .distributedos{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .distrid-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .distributed{
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .distributed h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+    
+    .distriad h5, .distrid h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .distriad ul li, .distrid ul li{
+        line-height: 25px;
+    }
+
+    /* end of distributed */
+
+    /* start of multitasking */
+
+    .multitaskingos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .multi-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .multi{
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .multi h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+    
+    .multiad h5, .multidz h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .multiad ul li, .multidz ul li{
+        line-height: 25px;
+    }
+
+
+    /* end of multitasking */
+
+    /* start of network */
+
+    .networkos{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .ntwk-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .netwk{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .netwk h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+
+    .ntwkad h5, .ntwkdz h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .ntwkad ul li, .ntwkdz ul li{
+        line-height: 25px;
+    }
+    
+
+    /* end of network */
+
+    /* start of real-time */
+    
+    .realos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .rtos-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .rtos{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .rtos h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+
+    .rtostyp, .rtos-app{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .rtosad h5, .rtosdz h5, .rtos-app h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .rtosad ul li, .rtosdz ul li{
+        line-height: 25px;
+    }
+    /* end of real-time */
+
+    /* start of mobile */
+
+    .mobileos{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        padding: 1% 5%;
+    }
+
+    .mob-img{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .mob{
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+    .mob h4{
+        font-size: 22px;
+        line-height: 70px;
+    }
+    
+    .mobad h5, .mobdz h5{
+        font-size: 17px;
+        line-height: 50px;
+        margin-top: 20px;
+    }
+
+    .mobad ul li, .mobdz ul li{
+        line-height: 25px;
+    }
+
+    /* end of mobile */
+
+    /* end of types */
+
+    /* start of footer */
+    footer{
+        width: 100%;
+        height: 150px;
+        margin-top: 100px;
+        padding-top: 30px;
+        background: #3e8da8;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    /* end of footer */
+}
