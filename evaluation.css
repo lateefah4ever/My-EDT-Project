@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display+swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+
+.rdd{
+    color: rgb(220, 51, 79);
+}
+
+.blu{
+    color: #3e8da8;
+}
+
+/* beginning of header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: #3e8da8;
+    padding: 0 5%;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 70px;
+}
+
+header h3 a span{
+     color: rgb(220, 51, 79);
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0 20px;
+}
+
+header ul li a{
+    font-size: 0.7em;
+}
+
+header ul li a:hover{
+    color: rgb(220, 51, 79);
+}
+
+/* .toggle{
+    display: none;
+} */
+
+
+/* end of header */
+
+/* start of evaluation */
+
+.evaluation{
+    width: 100%;
+    margin-top: 120px;
+    padding: 0 10%;
+}
+
+.evaluation h3{
+    font-size: 40px;
+    color: rgb(220, 51, 79);
+    line-height: 70px;
+    text-align: center;
+}
+
+.evaluation h3 span{
+    color: #3e8da8;
+}
+
+.one{
+    background: #3e8ea854;
+}
+
+.two{
+    background: rgba(220, 51, 79, 0.274);
+}
+.one,
+.two{
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 4% 20%;
+}
+
+.alpha{
+    list-style-type: upper-alpha;
+    line-height: 30px;
+}
+
+ul{
+    line-height: 50px;
+}
+
+
+/* start of footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background: #3e8da8;
+    margin-top: 100px;
+}
+
+/* end of footer */
+
+
+
+
+
+/* for tablets */
+@media only screen and (max-width:768px){
+    header{
+        width: 100%;
+        height: 60px;
+        padding: 0 10%;
+        justify-content: space-between;
+    }
+
+    header h3{
+        margin-right: 50px;
+    }
+
+    header h3 a{
+        line-height: 60px;
+        width: 50%;
+    }
+
+    header ul{
+        display: inline-flex;
+    }
+
+    header ul li{
+        /* background: #3e8da8; */
+        display: flex;
+        flex-direction: row;
+        text-align: center ;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    header ul li:hover{
+        background-color: #ffffff19;
+    }
+
+    
+    header ul li a:hover{
+        color: rgb(220, 51, 79);
+    }    
+    
+    /* end of header */
+
+
+    /* start of footer */
+    footer{
+        width: 100%;
+        height: 150px;
+        margin-top: 100px;
+        padding-top: 30px;
+        background: #3e8da8;
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    /* end of footer */
+}
